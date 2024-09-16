@@ -1,0 +1,254 @@
+@font-face {
+	font-family: 'MPH12';
+	src: url(/font/JF-Dot-MPlusH12.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: MPH12;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFEF6;
+    /* min-width: 1000px; */
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 8% 0 8%;
+    position: fixed;
+    background-color: #FFFEF6;
+    width: 100vw;
+    /* width: 1000px; */
+    min-width: 700px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    /* background-color: #ffc0cb; */
+}
+
+.logo{
+    color:blue;
+    font-size:20px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    margin-right: 50px;
+    margin-left: 10px;
+    padding-top: 25px;
+
+}
+
+.logo_img{
+    margin-top:15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 2px coral;
+    cursor: pointer;
+}
+
+span{
+    color: lightcoral;
+}
+
+nav ul {
+    margin: 0 0 0 auto;
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding:0px 10px;
+    font-size: 10px;
+}
+
+
+nav ul li a{
+    width: 80px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li dir{
+    text-align: center;
+}
+
+nav ul li a:hover{
+    color:chocolate;
+    & img{
+        transform: translate(1px,3px);
+    }
+}
+.nav_logo{
+    width: 40px;
+    height: auto;
+    position: relative;
+    margin-left:24%;
+}
+
+.btn{
+    background-color: bisque;
+    color: #FFFEF6;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition:all 0.2s;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    transform: scale(1.3);
+    border-radius: 20px;
+}
+
+.contact_form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 30px;
+    width: 100%;
+}
+
+
+form{
+    width: 600px;
+}
+
+.item{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.label{
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-left: 3px solid coral;
+    padding-left: 10px;
+    text-align: left;
+}
+
+input[type="text"],input[type="email"],input[type="email_title"]{
+    border:solid 2px seagreen;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+textarea{
+    border:solid 2px seagreen;
+    border-radius: 5px;
+    padding: 10px;
+    height: 160px;
+    width: 550px;
+    font-size: 15px;
+}
+
+.button-area{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+
+input[type="reset"]{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+
+.error_msg{
+    color: crimson;
+    font-size: 10px;
+    margin:3px 3px;
+}
+
+.input_item{
+    font-size: 20px;
+}
+
+.return{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+
+.maintext {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+}
+
+.maintext p{
+    width: 100%;
+    padding-top: 15%;
+    padding-left: 20%;
+    margin-bottom: 5%;
+}
+
+.home_button{
+    display: flex;
+    margin: 0 auto;
+    background-color: lightseagreen;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.home_logo {
+    margin:2% 8% 0% 7%;
+    width: 40px;
+    height: 40px;
+}
+
+.home_text{
+    margin-top: 15px ;
+    color: whitesmoke;
+}
+
+.home_button:hover{
+    cursor:pointer;
+    & img{
+        transform: translate(1px,3px);
+    }
+    & dir{
+        transform: translate(1px,3px);
+    }
+}
